@@ -1,0 +1,46 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Bytecode / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment variables / secrets (VERY IMPORTANT!)
+.env
+.env.local
+.env.*
+secrets.json
+*.key
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS junk
+.DS_Store
+
+# Windows junk
+Thumbs.db
+ehthumbs.db
+
+# Logs & temp
+*.log
+tmp/
+temp/
+
+# Gradio / ML temp files (sometimes generated)
+gradio/
+*.gradio
+cache/
